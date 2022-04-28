@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Pacifico;
+  src: url(/build/fonts/pacifico/pacifico.woff2);
+}
+@font-face {
+  font-family: Laila;
+  src: url(/build/fonts/laila/Laila-Medium.woff2);
+}
+@font-face {
+  font-family: Laila-semi;
+  src: url(/build/fonts/laila/Laila-SemiBold.woff2);
+}
+@font-face {
+  font-family: Laila-bold;
+  src: url(/build/fonts/laila/Laila-Bold.woff2);
+}
+
+@layer base {
+  html {
+    font-family: Laila;
+  }
+}
